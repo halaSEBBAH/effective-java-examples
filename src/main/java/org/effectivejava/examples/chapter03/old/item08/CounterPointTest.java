@@ -1,5 +1,5 @@
 // Test program that uses CounterPoint as Point
-package org.effectivejava.examples.chapter03.item08;
+package org.effectivejava.examples.chapter03.old.item08;
 
 import java.util.HashSet;
 import java.util.Set;

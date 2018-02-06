@@ -1,4 +1,4 @@
-package org.effectivejava.examples.chapter03.item09;
+package org.effectivejava.examples.chapter03.old.item09;
 
 // Shows the need for overriding hashcode when you override equals - Pages 45-46
 

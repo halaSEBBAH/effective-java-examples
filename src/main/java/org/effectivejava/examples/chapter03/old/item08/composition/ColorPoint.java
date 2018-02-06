@@ -1,5 +1,5 @@
 // Adds a value component without violating the equals contract - Page 40
-package org.effectivejava.examples.chapter03.item08.composition;
+package org.effectivejava.examples.chapter03.old.item08.composition;
 
 public class ColorPoint {
 	private final Point point;

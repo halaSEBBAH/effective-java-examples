@@ -1,5 +1,5 @@
 // Creates lots of unnecessary duplicate objects - page 20-21
-package org.effectivejava.examples.chapter02.item05.slowversion;
+package org.effectivejava.examples.chapter02.old.item05.slowversion;
 
 import java.util.Calendar;
 import java.util.Date;

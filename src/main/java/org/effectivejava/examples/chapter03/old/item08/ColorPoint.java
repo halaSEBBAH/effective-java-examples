@@ -1,5 +1,5 @@
 // Attempting to add a value component to Point - Pages 37 - 38
-package org.effectivejava.examples.chapter03.item08;
+package org.effectivejava.examples.chapter03.old.item08;
 
 public class ColorPoint extends Point {
 	private final Color color;

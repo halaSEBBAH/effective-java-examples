@@ -1,5 +1,5 @@
 // Simple immutable two-dimensional integer point class - Page 37
-package org.effectivejava.examples.chapter03.item08;
+package org.effectivejava.examples.chapter03.old.item08.composition;
 
 public class Point {
 	private final int x;
@@ -17,14 +17,6 @@ public class Point {
 		Point p = (Point) o;
 		return p.x == x && p.y == y;
 	}
-
-	// Broken - violates Liskov substitution principle - Pages 39-40
-	// @Override public boolean equals(Object o) {
-	// if (o == null || o.getClass() != getClass())
-	// return false;
-	// Point p = (Point) o;
-	// return p.x == x && p.y == y;
-	// }
 
 	// See Item 9
 	@Override

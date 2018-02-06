@@ -1,4 +1,4 @@
-package org.effectivejava.examples.chapter02.item05;
+package org.effectivejava.examples.chapter02.old.item05;
 
 public class Sum {
 	// Hideously slow program! Can you spot the object creation?

@@ -1,6 +1,8 @@
 // Singleton with static factory - Page 17
 package org.effectivejava.examples.chapter02.item03.method;
 
+import java.util.function.Supplier;
+
 public class Elvis {
 	private static final Elvis INSTANCE = new Elvis();
 
@@ -17,7 +19,7 @@ public class Elvis {
 
 	// This code would normally appear outside the class!
 	public static void main(String[] args) {
-		Elvis elvis = Elvis.getInstance();
-		elvis.leaveTheBuilding();
+		Supplier<Elvis> elvis = Elvis::getInstance;
+		elvis.get().leaveTheBuilding();
 	}
 }
