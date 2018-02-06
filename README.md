@@ -1,8 +1,6 @@
 # Effective Java Examples
 
-This are the souces from the book "Effective Java Second Edition", written by Joshua Bloch.
+This are souces (sometimes customized) from the book "Effective Java Third Edition", written by Joshua Bloch.
 
-They are unmodifed, except the package names.
-
-The original source are downloaded from http://java.sun.com/docs/books/effective/index.html, but are no longer provided.
+Book: https://www.amazon.com/Effective-Java-3rd-Joshua-Bloch/dp/0134685997.
 
