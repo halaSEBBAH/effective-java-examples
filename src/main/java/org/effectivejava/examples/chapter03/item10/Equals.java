@@ -1,4 +1,4 @@
-package org.effectivejava.examples.chapter02.item10;
+package org.effectivejava.examples.chapter03.item10;
 
 import java.util.Objects;
 
@@ -28,7 +28,6 @@ public class Equals {
                 }
                 if (o instanceof String) {
                     return value.equalsIgnoreCase((String) o);
-
                 }
                 return false;
             }
@@ -76,5 +75,7 @@ public class Equals {
             }
         }
     }
+
+    // ColorPoint(0, 0, red) ##  Point(0, 0) ## ColorPoint(0, 0, green)
 
 }

@@ -1,5 +1,5 @@
 // Adding a toString method to PhoneNumber - page 52
-package org.effectivejava.examples.chapter03.item10;
+package org.effectivejava.examples.chapter03.old.item10;
 
 import java.util.HashMap;
 import java.util.Map;
