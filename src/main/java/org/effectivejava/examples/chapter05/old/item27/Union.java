@@ -1,5 +1,5 @@
 // Generic union method and program to exercise it - pages 129 - 130
-package org.effectivejava.examples.chapter05.item27;
+package org.effectivejava.examples.chapter05.old.item27;
 
 import java.util.Arrays;
 import java.util.HashSet;

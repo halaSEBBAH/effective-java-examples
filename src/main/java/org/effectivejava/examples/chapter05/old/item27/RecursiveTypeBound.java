@@ -1,5 +1,5 @@
 // Using a recursive type bound to express mutual comparability - Pages 132-133
-package org.effectivejava.examples.chapter05.item27;
+package org.effectivejava.examples.chapter05.old.item27;
 
 import java.util.Arrays;
 import java.util.Iterator;

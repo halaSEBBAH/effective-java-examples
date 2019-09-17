@@ -1,5 +1,5 @@
 // Generic singleton factory method - Pages 131-132
-package org.effectivejava.examples.chapter05.item27;
+package org.effectivejava.examples.chapter05.old.item27;
 
 public class GenericSingletonFactory {
 	// Generic singleton factory pattern
