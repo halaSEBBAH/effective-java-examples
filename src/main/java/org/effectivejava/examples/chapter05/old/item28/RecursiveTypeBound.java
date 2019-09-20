@@ -1,5 +1,5 @@
 // Using a recursive type bound with wildcards - Page 138-139
-package org.effectivejava.examples.chapter05.item28;
+package org.effectivejava.examples.chapter05.old.item28;
 
 import java.util.Arrays;
 import java.util.Iterator;

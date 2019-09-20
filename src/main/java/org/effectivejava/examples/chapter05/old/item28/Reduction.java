@@ -1,5 +1,5 @@
 // List-based generic reduction with wildcard type - Page 136
-package org.effectivejava.examples.chapter05.item28;
+package org.effectivejava.examples.chapter05.old.item28;
 
 import java.util.ArrayList;
 import java.util.Arrays;

@@ -1,11 +1,11 @@
 package org.effectivejava.examples.chapter05.item26;
 
 
+
 import java.util.*;
 
 import static java.lang.Boolean.FALSE;
 import static java.lang.Boolean.TRUE;
-import static java.util.stream.Collectors.toSet;
 
 
 public class AvoidRawDeclaration {
@@ -25,14 +25,14 @@ public class AvoidRawDeclaration {
         List<String> strings = new ArrayList<>();
 
         // Uses raw type (List) - fails at runtime!
-        unsafeAdd(strings, Integer.valueOf(42));
+        unsafeAdd(strings, 42);
         String s = strings.get(0); // code not safe, Cast Exception
     }
 
     void avoid_raw_type_declaration_example2() {
         // First thing, unsafeIntersect(...) signature is not restrictive.
         // e.g it accepts two sets with different nature
-        unsafeIntersect(Set.of("0", "1"), Set.of(FALSE, TRUE));
+        unsafeUnion(Set.of("0", "1"), Set.of(FALSE, TRUE));
     }
 
     private void rare_cases_where_you_must_use_raws() {
@@ -48,10 +48,12 @@ public class AvoidRawDeclaration {
 
     }
 
-    private Set unsafeIntersect(Set s1, Set s2) {
+    private Set unsafeUnion(Set s1, Set s2) {
         // Not safe since you can put anything in s1/s2
-        return (Set) s1.stream().filter(s2::contains).collect(toSet());
-        // Right alternative: <T> unsafeIntersect(Set<T> s1, Set<T> s2)
+        Set result = new HashSet(s1);
+        result.addAll(s2);
+        return result;
+        // Right alternative: <T> unsafeUnion(Set<T> s1, Set<T> s2)
     }
 
     private void unsafeAdd(List list, Object o) {

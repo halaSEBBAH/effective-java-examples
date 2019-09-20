@@ -1,5 +1,5 @@
 // Generic union method with wildcard types - Pages 137-138
-package org.effectivejava.examples.chapter05.item28;
+package org.effectivejava.examples.chapter05.old.item28;
 
 import java.util.HashSet;
 import java.util.Set;
