@@ -14,6 +14,8 @@ public class AvoidRawDeclaration {
         examples().avoid_raw_type_declaration_example1();
         examples().avoid_raw_type_declaration_example2();
         examples().rare_cases_where_you_must_use_raws();
+
+        String[] chain = (String[]) new Object[10];
     }
 
 
@@ -26,7 +28,7 @@ public class AvoidRawDeclaration {
 
         // Uses raw type (List) - fails at runtime!
         unsafeAdd(strings, 42);
-        String s = strings.get(0); // code not safe, Cast Exception
+        // String s = strings.get(0);  code not safe, Cast Exception
     }
 
     void avoid_raw_type_declaration_example2() {
