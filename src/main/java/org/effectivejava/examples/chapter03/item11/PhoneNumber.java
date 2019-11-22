@@ -1,4 +1,3 @@
-// Adding a clone method to PhoneNumber - page 55
 package org.effectivejava.examples.chapter03.item11;
 
 import java.util.HashMap;
@@ -33,12 +32,12 @@ public final class PhoneNumber {
 	@Override
 	public int hashCode() {
 		int result = 17;
-		result = 31 * result + areaCode;
-		result = 31 * result + prefix;
+		result = 31 * result + areaCode; // multiplication makes the result depend on the order of fields
+		result = 31 * result + prefix; // prime number to have a balanced distribution
 		result = 31 * result + lineNumber;
 		return result;
+		// or simply : return Objects.hash(areaCode, prefix, lineNumber); --- only if performance is not critical.
 	}
-
 
 	// If a class is immutable and the cost of computing the hash code is significant
 	public int cached_hashCode() {
