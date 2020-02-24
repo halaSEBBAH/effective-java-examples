@@ -1,5 +1,5 @@
 // Enum type with constant-specific class bodies and data - Page 153
-package org.effectivejava.examples.chapter06.item30;
+package org.effectivejava.examples.chapter06.old.item30;
 
 import java.util.HashMap;
 import java.util.Map;

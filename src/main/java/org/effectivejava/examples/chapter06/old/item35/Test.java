@@ -1,5 +1,5 @@
 // Marker annotation type declaration - Page 169
-package org.effectivejava.examples.chapter06.item35;
+package org.effectivejava.examples.chapter06.old.item35;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

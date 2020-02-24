@@ -1,5 +1,5 @@
 // EnumSet - a modern replacement for bit fields - Page 160
-package org.effectivejava.examples.chapter06.item32;
+package org.effectivejava.examples.chapter06.old.item32;
 
 import java.util.EnumSet;
 import java.util.Set;

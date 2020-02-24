@@ -1,5 +1,5 @@
 // Using an EnumMap to associate data with an enum - Pages 161-162
-package org.effectivejava.examples.chapter06.item33;
+package org.effectivejava.examples.chapter06.old.item33;
 
 import java.util.EnumMap;
 import java.util.HashSet;

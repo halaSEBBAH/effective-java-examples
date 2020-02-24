@@ -1,5 +1,5 @@
 // Emulated extensible enum using an interface - Basic implementation - Page 165
-package org.effectivejava.examples.chapter06.item34;
+package org.effectivejava.examples.chapter06.old.item34;
 
 public enum BasicOperation implements Operation {
 	PLUS("+") {

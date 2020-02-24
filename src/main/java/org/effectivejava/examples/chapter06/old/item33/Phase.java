@@ -1,5 +1,5 @@
 // Using a nested EnumMap to associate data with enum pairs - Pags 163-164
-package org.effectivejava.examples.chapter06.item33;
+package org.effectivejava.examples.chapter06.old.item33;
 
 import java.util.EnumMap;
 import java.util.Map;

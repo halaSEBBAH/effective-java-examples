@@ -1,5 +1,5 @@
 // Can you spot the bug? - Page 176
-package org.effectivejava.examples.chapter06.item36;
+package org.effectivejava.examples.chapter06.old.item36;
 
 import java.util.HashSet;
 import java.util.Set;

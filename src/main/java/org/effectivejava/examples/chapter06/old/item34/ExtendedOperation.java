@@ -1,5 +1,5 @@
 // Emulated extension enum - Page 166-167
-package org.effectivejava.examples.chapter06.item34;
+package org.effectivejava.examples.chapter06.old.item34;
 
 import java.util.Arrays;
 import java.util.Collection;

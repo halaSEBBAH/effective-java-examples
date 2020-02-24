@@ -1,5 +1,5 @@
 // Enum with integer data stored in an instance field
-package org.effectivejava.examples.chapter06.item31;
+package org.effectivejava.examples.chapter06.old.item31;
 
 public enum Ensemble {
 	SOLO(1), DUET(2), TRIO(3), QUARTET(4), QUINTET(5), SEXTET(6), SEPTET(7), OCTET(
