@@ -1,5 +1,5 @@
 // Broken comparator - can you spot the flaw? - Page 221
-package org.effectivejava.examples.chapter07.item49;
+package org.effectivejava.examples.chapter07.old.item49;
 
 import java.util.Comparator;
 

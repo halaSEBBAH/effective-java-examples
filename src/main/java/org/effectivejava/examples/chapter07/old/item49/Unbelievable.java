@@ -1,5 +1,5 @@
 // What does this program do? - Page 222
-package org.effectivejava.examples.chapter07.item49;
+package org.effectivejava.examples.chapter07.old.item49;
 
 public class Unbelievable {
 	static Integer i;

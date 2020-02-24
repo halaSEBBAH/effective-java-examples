@@ -1,5 +1,5 @@
 // Overriding demonstration - Page 192
-package org.effectivejava.examples.chapter07.item41;
+package org.effectivejava.examples.chapter07.old.item41;
 
 class Wine {
 	String name() {

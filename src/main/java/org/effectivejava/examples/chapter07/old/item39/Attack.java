@@ -1,5 +1,5 @@
 // Two attacks on the internals of an "immutable" period
-package org.effectivejava.examples.chapter07.item39;
+package org.effectivejava.examples.chapter07.old.item39;
 
 import java.util.Date;
 

@@ -1,5 +1,5 @@
 // Reflective instantiation with interface access - Page 231
-package org.effectivejava.examples.chapter07.item53;
+package org.effectivejava.examples.chapter07.old.item53;
 
 import java.util.Arrays;
 import java.util.Set;
