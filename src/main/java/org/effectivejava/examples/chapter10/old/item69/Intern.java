@@ -1,5 +1,5 @@
 // Concurrent canonicalizing map atop ConcurrentMap - Pages 273-274
-package org.effectivejava.examples.chapter10.item69;
+package org.effectivejava.examples.chapter10.old.item69;
 
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentMap;

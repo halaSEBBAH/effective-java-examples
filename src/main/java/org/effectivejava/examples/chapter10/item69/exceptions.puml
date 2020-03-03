@@ -1,0 +1,40 @@
+@startuml
+
+note as N1
+When a program violates the semantic constraints of
+the Java programming language, the Java Virtual Machine
+signals this error to the program as an exception.
+end note
+
+
+note top of Throwable
+An exception is represented by an instance of the class
+Throwable (a direct subclass of Object) or one of its subclasses.
+end note
+
+
+note left  of Exception
+Exceptions from which ordinary programs may wish to recover.
+The unchecked exception classes are the run-time exception classes and the error classes.
+end note
+
+note right  of Error
+Exceptions from which ordinary programs are not ordinarily expected to recover.
+Error and all its subclasses are, collectively, the error classes.
+end note
+
+note left  of RuntimeException
+RuntimeException is the superclass of all the exceptions which may be thrown for many
+reasons during expression evaluation, but from which recovery may still be possible.
+RuntimeException and all its subclasses are, collectively, the run-time exception classes.
+end note
+
+class Exception extends Throwable
+class Error extends Throwable
+
+class RuntimeException extends Exception
+
+
+
+
+@enduml

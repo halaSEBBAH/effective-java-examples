@@ -1,5 +1,5 @@
 // Initialization styles - Pages 282-284
-package org.effectivejava.examples.chapter10.item71;
+package org.effectivejava.examples.chapter10.old.item71;
 
 public class Initialization {
 

@@ -1,5 +1,5 @@
 // Simple framework for timing concurrent execution
-package org.effectivejava.examples.chapter10.item69;
+package org.effectivejava.examples.chapter10.old.item69;
 
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.Executor;

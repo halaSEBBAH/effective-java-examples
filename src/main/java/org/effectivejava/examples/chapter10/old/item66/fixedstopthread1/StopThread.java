@@ -1,5 +1,5 @@
 // Properly synchronized cooperative thread termination - Page 261
-package org.effectivejava.examples.chapter10.item66.fixedstopthread1;
+package org.effectivejava.examples.chapter10.old.item66.fixedstopthread1;
 
 import java.util.concurrent.TimeUnit;
 

@@ -1,10 +1,10 @@
-// Broken! - How long would you expect this program to run? - Page 259
-package org.effectivejava.examples.chapter10.item66.brokenstopthread;
+// Cooperative thread termination with a volatile field
+package org.effectivejava.examples.chapter10.old.item66.fixedstopthread2;
 
 import java.util.concurrent.TimeUnit;
 
 public class StopThread {
-	private static boolean stopRequested;
+	private static volatile boolean stopRequested;
 
 	public static void main(String[] args) throws InterruptedException {
 		Thread backgroundThread = new Thread(new Runnable() {
